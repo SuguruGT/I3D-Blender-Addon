@@ -255,7 +255,7 @@ class I3DNodeShapeAttributes(bpy.types.PropertyGroup):
         'non_renderable': {'name': 'nonRenderable', 'default': False},
         'distance_blending': {'name': 'distanceBlending', 'default': True},
         'cpu_mesh': {'name': 'meshUsage', 'default': '0', 'placement': 'IndexedTriangleSet'},
-        'decal_layer': {'name': 'decalLayer', 'default': 0}
+        'decal_layer': {'name': 'decalLayer', 'default': 0},
         'fill_volume': {'name': 'name', 'default': False, 'placement': 'IndexedTriangleSet',
                         'type': 'OVERRIDE', 'override': 'fillVolumeShape'}
     }
